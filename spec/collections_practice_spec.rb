@@ -32,7 +32,7 @@ describe 'collections practice' do
 
   #Question 4b
   describe "swap_elements_from_to" do
-    if 'swaps two specified elements in the array' do
+    it 'swaps two specified elements in the array' do
       expect(swap_elements_from_to(["blake", "ashley", "scott"], 1, 2)).to eq(["blake", "scott", "ashley"])
     end
   end
